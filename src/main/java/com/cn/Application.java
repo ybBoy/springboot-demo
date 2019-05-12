@@ -1,13 +1,13 @@
-package com.yb.ybstudy;
+package com.cn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication()
-public class YbStudyApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(YbStudyApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

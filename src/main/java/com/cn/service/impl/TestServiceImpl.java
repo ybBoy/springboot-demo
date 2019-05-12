@@ -1,7 +1,6 @@
-package com.yb.ybstudy.service.impl;
+package com.cn.service.impl;
 
-import com.yb.ybstudy.aop.LoggerAOP;
-import com.yb.ybstudy.service.itl.ITestService;
+import com.cn.service.itl.ITestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;

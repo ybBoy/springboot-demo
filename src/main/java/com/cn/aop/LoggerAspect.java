@@ -1,4 +1,4 @@
-package com.yb.ybstudy.aop;
+package com.cn.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -34,7 +34,7 @@ public class LoggerAspect {
      * 6、execution(* com.lingyejun.annotation..*.*(String,?,Long)) com.lingyejun.annotation包及子包下所有的类的有三个参数，第一个参数为String类型，第二个参数为任意类型，第三个参数为Long类型的方法
      * 7、execution(@annotation(com.lingyejun.annotation.Lingyejun))
      */
-    @Pointcut("execution(* com.yb.ybstudy..*.*(..))")
+    @Pointcut("execution(* com.cn..*.*(..))")
     private void cutMethod() {
 
     }

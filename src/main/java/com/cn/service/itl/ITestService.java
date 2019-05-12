@@ -1,4 +1,4 @@
-package com.yb.ybstudy.service.itl;
+package com.cn.service.itl;
 
 public interface ITestService
 {

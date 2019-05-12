@@ -1,8 +1,8 @@
-package com.yb.ybstudy.web;
+package com.cn.web;
 
 
-import com.yb.ybstudy.aop.LoggerAOP;
-import com.yb.ybstudy.service.itl.ITestService;
+import com.cn.service.itl.ITestService;
+import com.cn.aop.LoggerAOP;
 import org.mybatis.logging.Logger;
 import org.mybatis.logging.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

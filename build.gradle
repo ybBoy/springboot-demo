@@ -6,7 +6,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.yb'
+group = 'com.cn'
 version = '0.0.1-SNAPSHOT'
 //编码环境jdk版本
 sourceCompatibility = '1.8'

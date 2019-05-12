@@ -1,4 +1,4 @@
-package com.yb.ybstudy;
+package com.cn;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +14,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class YbStudyApplicationTests {
+public class SpringbootDemoApplicationTests {
 
 	@Autowired
 	DataSourceProperties dataSourceProperties;

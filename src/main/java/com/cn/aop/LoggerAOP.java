@@ -1,4 +1,4 @@
-package com.yb.ybstudy.aop;
+package com.cn.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
